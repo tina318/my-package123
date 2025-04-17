@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('https://theflora.in/cdn/shop/articles/pexels-brett-sayles-992734_1.jpg?v=1738243273&width=2048') no-repeat center center;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.app {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  background: url('https://i.natgeofe.com/n/02f955ff-a7ed-4f19-9a6b-8fe637113d94/G5CEF8.JPG') center/cover no-repeat;
+  border: 5px solid red;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); 
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+
+
+.flower-img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+
+
+.formulas-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #90ee90;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); 
+}
+
+.formulas-card li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.multiplication-card {
+  background: url('https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg') no-repeat left center;
+  background-size: cover;
+  border: 3px solid #7fffd4;
+  border-radius: 10px;
+  padding: 20px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.multiplication-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 15px 0 0 15px;
+  font-family: 'Courier New', monospace;
+  height: fit-content;
+  max-height: 100%;
+  overflow-y: auto;
+  box-shadow: -5px 0 15px rgba(0, 0, 255, 0.2);
+}
