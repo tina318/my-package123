@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: url('https://theflora.in/cdn/shop/articles/pexels-brett-sayles-992734_1.jpg?v=1738243273&width=2048') no-repeat center center;
+  background: url(https://wallpapercave.com/wp/3j5eVt6.jpg) no-repeat center center;
   background-size: cover;
   font-family: 'Segoe UI', sans-serif;
   color: #222;
@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-  background: url('https://i.natgeofe.com/n/02f955ff-a7ed-4f19-9a6b-8fe637113d94/G5CEF8.JPG') center/cover no-repeat;
+  background: url(https://th.bing.com/th/id/R.107b24ec25b0e0ac3f46fe8eb349a40f?rik=zFQ2daAAjbYg%2fg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f5KLTq1z.jpg&ehk=wzeoXNuC8vxZk8UfEv5XwMUzPFLJHc3QRM9wghPQmr4%3d&risl=&pid=ImgRaw&r=0) center/cover no-repeat;
   border: 5px solid red;
   border-radius: 15px;
   padding: 20px;
@@ -44,7 +44,7 @@ body {
 
 
 .formulas-card {
-  background-color: rgba(255, 255, 255, 0.8);
+  
   border: 3px solid #90ee90;
   border-radius: 10px;
   padding: 20px;
@@ -56,22 +56,22 @@ body {
   font-size: 1.1rem;
 }
 .multiplication-card {
-  background: url('https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg') no-repeat left center;
+  background: url(https://wallpapers.com/images/hd/bright-white-background-lxi3evlbm4uih46l.jpg) no-repeat left center;
   background-size: cover;
   border: 3px solid #7fffd4;
   border-radius: 10px;
   padding: 20px;
   height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display:flexbox;
+
+  
   box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
   overflow: hidden;
   box-sizing: border-box;
 }
 
 .multiplication-text {
-  background-color: rgba(255, 255, 255, 0.8);
+  
   padding: 10px 20px;
   border-radius: 15px 0 0 15px;
   font-family: 'Courier New', monospace;

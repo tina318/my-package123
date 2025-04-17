@@ -17,11 +17,11 @@ function App() {
   let x = 2;
   let y = 3;
 
-  let f1 = 1 * x * x * x + z - 1 * y;
+  let f1 = 1 * x * x * x + - 1 * y;
   let f2 = 2 * x * x + y * y - 4 * y * y;
   let f3 = 3 * y * y - 1 * x * x - 7 * y;
   let f4 = 2 * x * y + 1 * x * y;
-  let f5 = 3 * x * x + 1 * y + z;
+  let f5 = 3 * x * x + 1 * y;
 
   return (
     <div className="app">
@@ -43,7 +43,7 @@ function App() {
           <p>2 × 10 = {wyn10}</p>
         </div>
       </div>
-
+<br />
       <div className="formulas-card">
         <ul>
           <li>7x³ + - 7y = {f1}</li>
